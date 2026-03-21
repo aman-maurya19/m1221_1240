@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/lotus-institute-of-pharmacy-bareilly-65645",
-  "https://www.shiksha.com/college/dayanand-institute-of-pharmacy-latur-88599",
-  "https://www.shiksha.com/college/government-medical-college-vizianagaram-213213",
-  "https://www.shiksha.com/college/mother-teresa-college-of-pharmacy-ghatkesar-hyderabad-87839",
-  "https://www.shiksha.com/college/smt-b-n-b-swaminarayan-pharmacy-college-valsad-101709",
-  "https://www.shiksha.com/college/mittal-institute-of-pharmacy-bhopal-125845",
-  "https://www.shiksha.com/college/g-madegowda-institute-of-naturopathy-and-yogic-sciences-mandya-150101",
-  "https://www.shiksha.com/college/cis-foundation-saket-delhi-213685",
-  "https://www.shiksha.com/college/p-g-institute-of-medical-sciences-midnapore-61827",
-  "https://www.shiksha.com/college/dr-karigowda-college-of-pharmacy-hassan-67743",
-  "https://www.shiksha.com/college/lala-birkha-ram-college-of-pharmacy-panchkula-68361",
-  "https://www.shiksha.com/college/s-j-n-homoeopathic-medical-college-hospital-guwahati-213899",
-  "https://www.shiksha.com/university/islamic-university-of-science-and-technology-jammu-kashmir-other-40939",
-  "https://www.shiksha.com/college/institute-of-science-and-technology-midnapore-41548",
-  "https://www.shiksha.com/college/ct-polytechnic-college-jalandhar-52039",
-  "https://www.shiksha.com/college/teegala-krishna-reddy-college-of-pharmacy-rangareddy-hyderabad-70255",
-  "https://www.shiksha.com/college/east-west-model-education-institute-west-bengal-other-144573",
-  "https://www.shiksha.com/college/karavali-college-of-pharmacy-mangalore-185887",
-  "https://www.shiksha.com/college/government-polytechnic-umri-kurukshetra-156197",
-  "https://www.shiksha.com/college/ankerite-ayurvedic-medical-college-and-hospital-lucknow-184427",
+  "https://www.shiksha.com/college/om-ayurvedic-medical-college-hospital-and-research-center-roorkee-87497",
+  "https://www.shiksha.com/college/tripura-institute-of-paramedical-sciences-tripura-other-152247",
+  "https://www.shiksha.com/university/mahatma-gandhi-central-university-bihar-other-49616",
+  "https://www.shiksha.com/college/vydehi-institute-of-pharmacy-whitefield-bangalore-64779",
+  "https://www.shiksha.com/college/ultra-college-of-pharmacy-madurai-88313",
+  "https://www.shiksha.com/college/solan-homoeopathic-medical-college-and-hospital-86955",
+  "https://www.shiksha.com/college/shree-lakshmi-narayan-ayurvedic-college-amritsar-87133",
+  "https://www.shiksha.com/college/institute-of-health-sciences-bhubaneswar-146125",
+  "https://www.shiksha.com/college/future-institute-of-engineering-and-management-sonarpur-kolkata-24088",
+  "https://www.shiksha.com/university/monad-university-hapur-42883",
+  "https://www.shiksha.com/college/bhima-bhoi-medical-college-and-hospital-balangir-orissa-other-180943",
+  "https://www.shiksha.com/college/karnataka-ayurveda-medical-college-mangalore-68261",
+  "https://www.shiksha.com/college/sharda-school-of-engineering-and-technology-greater-noida-32768",
+  "https://www.shiksha.com/college/laxminarayan-dev-college-of-pharmacy-bharuch-88021",
+  "https://www.shiksha.com/provider/futurelearn-226789",
+  "https://www.shiksha.com/college/vishveshwarya-group-of-institutions-vgi-greater-noida-28038",
+  "https://www.shiksha.com/college/govet-sri-durga-ji-homoeopathic-medical-college-and-hospital-chandeshwar-azamgarh-87037",
+  "https://www.shiksha.com/college/dr-mpk-homoeopathic-medical-college-jaipur-192879",
+  "https://www.shiksha.com/college/ali-yavar-jung-national-institute-for-the-hearing-handicapped-hyderabad-119735",
+  "https://www.shiksha.com/college/netaji-subhash-institute-kurla-west-mumbai-34766",
 ]
 
 
@@ -9249,7 +9249,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1741
+    c_count = 1221
 
     try:
         for base_url in BASE_URL:
