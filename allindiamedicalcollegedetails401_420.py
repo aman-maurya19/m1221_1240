@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/om-ayurvedic-medical-college-hospital-and-research-center-roorkee-87497",
-  "https://www.shiksha.com/college/tripura-institute-of-paramedical-sciences-tripura-other-152247",
-  "https://www.shiksha.com/university/mahatma-gandhi-central-university-bihar-other-49616",
-  "https://www.shiksha.com/college/vydehi-institute-of-pharmacy-whitefield-bangalore-64779",
-  "https://www.shiksha.com/college/ultra-college-of-pharmacy-madurai-88313",
-  "https://www.shiksha.com/college/solan-homoeopathic-medical-college-and-hospital-86955",
-  "https://www.shiksha.com/college/shree-lakshmi-narayan-ayurvedic-college-amritsar-87133",
-  "https://www.shiksha.com/college/institute-of-health-sciences-bhubaneswar-146125",
-  "https://www.shiksha.com/college/future-institute-of-engineering-and-management-sonarpur-kolkata-24088",
-  "https://www.shiksha.com/university/monad-university-hapur-42883",
-  "https://www.shiksha.com/college/bhima-bhoi-medical-college-and-hospital-balangir-orissa-other-180943",
-  "https://www.shiksha.com/college/karnataka-ayurveda-medical-college-mangalore-68261",
-  "https://www.shiksha.com/college/sharda-school-of-engineering-and-technology-greater-noida-32768",
-  "https://www.shiksha.com/college/laxminarayan-dev-college-of-pharmacy-bharuch-88021",
-  "https://www.shiksha.com/provider/futurelearn-226789",
-  "https://www.shiksha.com/college/vishveshwarya-group-of-institutions-vgi-greater-noida-28038",
-  "https://www.shiksha.com/college/govet-sri-durga-ji-homoeopathic-medical-college-and-hospital-chandeshwar-azamgarh-87037",
-  "https://www.shiksha.com/college/dr-mpk-homoeopathic-medical-college-jaipur-192879",
-  "https://www.shiksha.com/college/ali-yavar-jung-national-institute-for-the-hearing-handicapped-hyderabad-119735",
-  "https://www.shiksha.com/college/netaji-subhash-institute-kurla-west-mumbai-34766",
+  "https://www.shiksha.com/college/chandigarh-pharmacy-college-mohali-148093",
+  "https://www.shiksha.com/college/u-c-a-college-of-paramedical-sciences-chennai-193817",
+  "https://www.shiksha.com/college/lydia-college-of-pharmacy-east-godavari-60630",
+  "https://www.shiksha.com/college/laxmiben-homoeopathic-institute-and-research-center-visnagar-87463",
+  "https://www.shiksha.com/college/vellalar-college-of-pharmacy-erode-88635",
+  "https://www.shiksha.com/college/jaslok-college-of-nursing-mumbai-90105",
+  "https://www.shiksha.com/college/government-medical-college-sundargarh-207505",
+  "https://www.shiksha.com/college/kssm-s-dhanwantari-homoeopathy-college-nashik-70115",
+  "https://www.shiksha.com/college/shri-ramnath-singh-mahavidyalaya-gormi-88049",
+  "https://www.shiksha.com/college/technocrats-institute-of-technology-pharmacy-education-and-research-bhopal-88081",
+  "https://www.shiksha.com/college/hans-raj-mahila-maha-vidyalaya-jalandhar-101451",
+  "https://www.shiksha.com/college/shri-rama-krishna-college-of-pharmacy-satna-147175",
+  "https://www.shiksha.com/college/government-medical-college-dindigul-180731",
+  "https://www.shiksha.com/college/k11-academy-of-fitness-sciences-shivaji-nagar-pune-44367",
+  "https://www.shiksha.com/college/rajshree-college-of-pharmacy-bareilly-65007",
+  "https://www.shiksha.com/college/esi-pgimsr-and-hospital-andheri-east-mumbai-69803",
+  "https://www.shiksha.com/college/gurram-balanarsaiah-institute-of-pharmacy-hyderabad-87775",
+  "https://www.shiksha.com/college/bokaro-general-hospital-bokaro-steel-city-106141",
+  "https://www.shiksha.com/college/annai-jkk-sampoorani-ammal-college-of-pharmacy-namakkal-88383",
+  "https://www.shiksha.com/college/navodaya-education-trust-s-n-e-t-pharmacy-college-raichur-149453",
 ]
 
 
@@ -9249,7 +9249,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1221
+    c_count = 1921
 
     try:
         for base_url in BASE_URL:
