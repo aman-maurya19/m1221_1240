@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/chandigarh-pharmacy-college-mohali-148093",
-  "https://www.shiksha.com/college/u-c-a-college-of-paramedical-sciences-chennai-193817",
-  "https://www.shiksha.com/college/lydia-college-of-pharmacy-east-godavari-60630",
-  "https://www.shiksha.com/college/laxmiben-homoeopathic-institute-and-research-center-visnagar-87463",
-  "https://www.shiksha.com/college/vellalar-college-of-pharmacy-erode-88635",
-  "https://www.shiksha.com/college/jaslok-college-of-nursing-mumbai-90105",
-  "https://www.shiksha.com/college/government-medical-college-sundargarh-207505",
-  "https://www.shiksha.com/college/kssm-s-dhanwantari-homoeopathy-college-nashik-70115",
-  "https://www.shiksha.com/college/shri-ramnath-singh-mahavidyalaya-gormi-88049",
-  "https://www.shiksha.com/college/technocrats-institute-of-technology-pharmacy-education-and-research-bhopal-88081",
-  "https://www.shiksha.com/college/hans-raj-mahila-maha-vidyalaya-jalandhar-101451",
-  "https://www.shiksha.com/college/shri-rama-krishna-college-of-pharmacy-satna-147175",
-  "https://www.shiksha.com/college/government-medical-college-dindigul-180731",
-  "https://www.shiksha.com/college/k11-academy-of-fitness-sciences-shivaji-nagar-pune-44367",
-  "https://www.shiksha.com/college/rajshree-college-of-pharmacy-bareilly-65007",
-  "https://www.shiksha.com/college/esi-pgimsr-and-hospital-andheri-east-mumbai-69803",
-  "https://www.shiksha.com/college/gurram-balanarsaiah-institute-of-pharmacy-hyderabad-87775",
-  "https://www.shiksha.com/college/bokaro-general-hospital-bokaro-steel-city-106141",
-  "https://www.shiksha.com/college/annai-jkk-sampoorani-ammal-college-of-pharmacy-namakkal-88383",
-  "https://www.shiksha.com/college/navodaya-education-trust-s-n-e-t-pharmacy-college-raichur-149453",
+  "https://www.shiksha.com/college/regency-institute-of-nursing-kanpur-149947",
+  "https://www.shiksha.com/college/netra-jyothi-college-of-optometry-udupi-184917",
+  "https://www.shiksha.com/college/government-medical-college-mahasamund-207491",
+  "https://www.shiksha.com/college/government-industrial-training-institute-tral-pulwama-214949",
+  "https://www.shiksha.com/college/esic-hospital-noida-244458",
+  "https://www.shiksha.com/college/st-soldier-college-basti-danishmandan-jalandhar-245276",
+  "https://www.shiksha.com/college/jagans-college-of-pharmacy-andhra-pradesh-other-60743",
+  "https://www.shiksha.com/college/maratha-mandal-college-of-pharmacy-belgaum-67799",
+  "https://www.shiksha.com/university/srimanta-sankaradeva-university-of-health-sciences-guwahati-65959",
+  "https://www.shiksha.com/college/smt-vasantben-n-vyas-homoeopathic-medical-college-amreli-87387",
+  "https://www.shiksha.com/college/thakur-yugraj-singh-mahavidyalaya-uttar-pradesh-other-102659",
+  "https://www.shiksha.com/college/n-m-s-s-v-n-college-madurai-110327",
+  "https://www.shiksha.com/college/dmbh-institute-of-medical-science-hooghly-149253",
+  "https://www.shiksha.com/college/government-medical-college-namakkal-180721",
+  "https://www.shiksha.com/college/vilasrao-deshmukh-government-medical-college-latur-202759",
+  "https://www.shiksha.com/college/jntuh-university-college-of-pharmaceutical-sciences-sultanpur-210055",
+  "https://www.shiksha.com/college/shree-swaminarayan-physiotherapy-college-ranip-ahmedabad-240350",
+  "https://www.shiksha.com/college/mathuradevi-group-of-institutes-indore-48136",
+  "https://www.shiksha.com/college/anandaram-dhekial-phookan-college-nagaon-64863",
+  "https://www.shiksha.com/college/ayurved-mahavidyalaya-and-shri-sant-eknath-rugnalaya-ahmednagar-87003",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1921
+    c_count = 2201
 
     try:
         for base_url in BASE_URL:
