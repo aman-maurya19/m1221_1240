@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/regency-institute-of-nursing-kanpur-149947",
-  "https://www.shiksha.com/college/netra-jyothi-college-of-optometry-udupi-184917",
-  "https://www.shiksha.com/college/government-medical-college-mahasamund-207491",
-  "https://www.shiksha.com/college/government-industrial-training-institute-tral-pulwama-214949",
-  "https://www.shiksha.com/college/esic-hospital-noida-244458",
-  "https://www.shiksha.com/college/st-soldier-college-basti-danishmandan-jalandhar-245276",
-  "https://www.shiksha.com/college/jagans-college-of-pharmacy-andhra-pradesh-other-60743",
-  "https://www.shiksha.com/college/maratha-mandal-college-of-pharmacy-belgaum-67799",
-  "https://www.shiksha.com/university/srimanta-sankaradeva-university-of-health-sciences-guwahati-65959",
-  "https://www.shiksha.com/college/smt-vasantben-n-vyas-homoeopathic-medical-college-amreli-87387",
-  "https://www.shiksha.com/college/thakur-yugraj-singh-mahavidyalaya-uttar-pradesh-other-102659",
-  "https://www.shiksha.com/college/n-m-s-s-v-n-college-madurai-110327",
-  "https://www.shiksha.com/college/dmbh-institute-of-medical-science-hooghly-149253",
-  "https://www.shiksha.com/college/government-medical-college-namakkal-180721",
-  "https://www.shiksha.com/college/vilasrao-deshmukh-government-medical-college-latur-202759",
-  "https://www.shiksha.com/college/jntuh-university-college-of-pharmaceutical-sciences-sultanpur-210055",
-  "https://www.shiksha.com/college/shree-swaminarayan-physiotherapy-college-ranip-ahmedabad-240350",
-  "https://www.shiksha.com/college/mathuradevi-group-of-institutes-indore-48136",
-  "https://www.shiksha.com/college/anandaram-dhekial-phookan-college-nagaon-64863",
-  "https://www.shiksha.com/college/ayurved-mahavidyalaya-and-shri-sant-eknath-rugnalaya-ahmednagar-87003",
+  "https://www.shiksha.com/college/sat-priya-group-of-institutions-rohtak-66461",
+  "https://www.shiksha.com/college/sri-guru-teg-bahadur-khalsa-college-rupnagar-67239",
+  "https://www.shiksha.com/college/sri-kakatiya-institute-of-pharmaceutical-sciences-warangal-87883",
+  "https://www.shiksha.com/college/keshav-group-of-institutions-karnal-87969",
+  "https://www.shiksha.com/college/government-polytechnic-college-bathinda-98333",
+  "https://www.shiksha.com/college/rajiv-gandhi-cancer-institute-and-research-centre-delhi-105861",
+  "https://www.shiksha.com/college/university-college-benra-punjabi-university-sangrur-106473",
+  "https://www.shiksha.com/college/shri-bherulal-pharmacy-institute-indore-147185",
+  "https://www.shiksha.com/college/mayurbhanj-homeopathic-medical-college-and-hospital-baripada-86953",
+  "https://www.shiksha.com/college/aditi-ayurved-nursing-institute-and-hospital-sikar-87087",
+  "https://www.shiksha.com/college/shri-kamaxidevi-homeopathic-medical-college-goa-other-87185",
+  "https://www.shiksha.com/college/dharma-ayurveda-medical-college-and-hospital-sriperumbudur-87351",
+  "https://www.shiksha.com/college/vaagdevi-institute-of-pharmaceutical-sciences-warangal-87869",
+  "https://www.shiksha.com/college/jakir-hossain-institute-of-pharmacy-west-bengal-other-88949",
+  "https://www.shiksha.com/college/government-polytechnic-college-haridwar-98449",
+  "https://www.shiksha.com/university/kk-modi-university-bhilai-152859",
+  "https://www.shiksha.com/college/faculty-of-humanities-and-science-maher-k-k-nagar-chennai-154903",
+  "https://www.shiksha.com/college/institute-of-psychiatry-and-human-behaviour-bambolim-187635",
+  "https://www.shiksha.com/college/channabaseshwar-post-graduated-m-l-t-college-latur-198083",
+  "https://www.shiksha.com/college/s-r-c-nursing-and-paramedical-institute-mathura-199907",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2201
+    c_count = 2921
 
     try:
         for base_url in BASE_URL:
