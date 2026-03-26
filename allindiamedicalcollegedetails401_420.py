@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sat-priya-group-of-institutions-rohtak-66461",
-  "https://www.shiksha.com/college/sri-guru-teg-bahadur-khalsa-college-rupnagar-67239",
-  "https://www.shiksha.com/college/sri-kakatiya-institute-of-pharmaceutical-sciences-warangal-87883",
-  "https://www.shiksha.com/college/keshav-group-of-institutions-karnal-87969",
-  "https://www.shiksha.com/college/government-polytechnic-college-bathinda-98333",
-  "https://www.shiksha.com/college/rajiv-gandhi-cancer-institute-and-research-centre-delhi-105861",
-  "https://www.shiksha.com/college/university-college-benra-punjabi-university-sangrur-106473",
-  "https://www.shiksha.com/college/shri-bherulal-pharmacy-institute-indore-147185",
-  "https://www.shiksha.com/college/mayurbhanj-homeopathic-medical-college-and-hospital-baripada-86953",
-  "https://www.shiksha.com/college/aditi-ayurved-nursing-institute-and-hospital-sikar-87087",
-  "https://www.shiksha.com/college/shri-kamaxidevi-homeopathic-medical-college-goa-other-87185",
-  "https://www.shiksha.com/college/dharma-ayurveda-medical-college-and-hospital-sriperumbudur-87351",
-  "https://www.shiksha.com/college/vaagdevi-institute-of-pharmaceutical-sciences-warangal-87869",
-  "https://www.shiksha.com/college/jakir-hossain-institute-of-pharmacy-west-bengal-other-88949",
-  "https://www.shiksha.com/college/government-polytechnic-college-haridwar-98449",
-  "https://www.shiksha.com/university/kk-modi-university-bhilai-152859",
-  "https://www.shiksha.com/college/faculty-of-humanities-and-science-maher-k-k-nagar-chennai-154903",
-  "https://www.shiksha.com/college/institute-of-psychiatry-and-human-behaviour-bambolim-187635",
-  "https://www.shiksha.com/college/channabaseshwar-post-graduated-m-l-t-college-latur-198083",
-  "https://www.shiksha.com/college/s-r-c-nursing-and-paramedical-institute-mathura-199907",
+  "https://www.shiksha.com/college/sehrawat-college-of-pharmacy-haryana-other-89017",
+  "https://www.shiksha.com/college/sri-sai-rr-institute-of-pharmacy-aligarh-89079",
+  "https://www.shiksha.com/college/adesh-polytechnic-college-muktsar-97411",
+  "https://www.shiksha.com/college/pachamuthu-college-of-pharmacy-dharmapuri-208251",
+  "https://www.shiksha.com/college/ecr-aviation-academy-cochin-admission-office-kochi-213307",
+  "https://www.shiksha.com/college/maa-gange-institute-of-hotel-management-and-professional-studies-dehradun-229563",
+  "https://www.shiksha.com/college/shivam-college-of-pharmacy-betul-230084",
+  "https://www.shiksha.com/college/tulsiramji-gaikwad-patil-college-of-pharmacy-maharashtra-other-236808",
+  "https://www.shiksha.com/college/the-hindu-college-guntur-21399",
+  "https://www.shiksha.com/college/shri-ram-group-of-institution-faculty-of-engineering-pharmacy-mba-mca-jabalpur-60395",
+  "https://www.shiksha.com/college/kakinada-institute-of-technological-sciences-andhra-pradesh-other-61331",
+  "https://www.shiksha.com/college/sivaraj-homoeopathic-medical-college-and-research-institute-salem-87349",
+  "https://www.shiksha.com/college/shivai-charitable-trust-s-college-of-pharmacy-maharashtra-other-89107",
+  "https://www.shiksha.com/college/shastry-institute-of-pharmacy-jalgaon-100251",
+  "https://www.shiksha.com/college/maharaja-agrasen-hospital-delhi-105933",
+  "https://www.shiksha.com/college/the-palakkad-district-co-operative-hospital-and-research-centre-limited-106025",
+  "https://www.shiksha.com/college/zee-educational-foundation-institute-of-pharmacy-bihar-other-146489",
+  "https://www.shiksha.com/college/dreams-college-of-pharmacy-saharanpur-181179",
+  "https://www.shiksha.com/college/gokul-group-of-institutions-vizianagaram-63537",
+  "https://www.shiksha.com/college/indu-prakash-pharmacy-college-uttar-pradesh-other-65417",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2921
+    c_count = 3181
 
     try:
         for base_url in BASE_URL:
